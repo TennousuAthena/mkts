@@ -1,5 +1,5 @@
 console.log('Misskey Translate Script');
-ApiUrl = 'https://api.dogcraft.top/ts/';
+ApiUrl = 'https://t.x61.uk';
 
 var cat = localStorage.getItem('lang');
 if (cat == null) {
@@ -25,7 +25,7 @@ function dog_add_fy(eldog) {
         var dogbt = document.createElement('button');
         dogbt.innerText = '翻译';
         dogbt.className = 'button _button';
-        dogbt.style.backgroundColor = "rgba(0,0,200,0.5)";
+        dogbt.style.backgroundColor = "rgba(126,211,33,0.5)";
         dogbt.addEventListener('click', dog_fy);//绑定翻译函数
         eldog.appendChild(cl);
         eldog.appendChild(dogfy);
