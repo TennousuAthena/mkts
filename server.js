@@ -51,7 +51,8 @@ async function dog_fy() {
                 method: 'POST',
                 body: JSON.stringify(post_dog),
                 headers: new Headers({
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Origin': window.origin,
                 })
             });
             if (uiy.status == 200) {
