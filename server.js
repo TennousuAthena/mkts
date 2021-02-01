@@ -1,5 +1,5 @@
 console.log('Misskey Translate Script');
-ApiUrl = 'https://x61.uk/translate';
+ApiUrl = 'https://t.x61.uk';
 
 var cat = localStorage.getItem('lang');
 if (cat == null) {
